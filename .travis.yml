@@ -1,0 +1,20 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t hbdevacc/react-rest -f ./client/Dockerfile.dev ./client
+
+script:
+  - docker run hbdevacc/react-rest npm test:ci
+
+after_success:
+  - docker build -t hbdevacc/multi-client ./client
+  - docker build -t hbdevacc/multi-nginx ./nginx
+  - docker build -t hbdevacc/multi-server ./server
+  - docker build -t hbdevacc/multi-worker ./worker
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  - docker push hbdevacc/multi-client
+  - docker push hbdevacc/multi-nginx
+  - docker push hbdevacc/multi-server
+  - docker push hbdevacc/multi-worker

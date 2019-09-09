@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="758e88c5-d0e6-4319-83d7-ae08978a5b89" name="Default Changelist" comment="" />
+    <list default="true" id="758e88c5-d0e6-4319-83d7-ae08978a5b89" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,7 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1QaD7ChXBPs8beaFzDRmNDc0rId" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -50,7 +54,7 @@
       <workItem from="1568011121370" duration="22000" />
       <workItem from="1568011155923" duration="56000" />
       <workItem from="1568011223643" duration="361000" />
-      <workItem from="1568011595743" duration="2735000" />
+      <workItem from="1568011595743" duration="4131000" />
     </task>
     <servers />
   </component>
